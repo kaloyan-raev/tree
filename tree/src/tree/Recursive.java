@@ -8,7 +8,7 @@ public class Recursive {
 	}
 	
 	private static void listNames(TreeNode node) {
-		System.out.println(node.getName());
+		System.out.println(node);
 		for (TreeNode n : node.getChildren()) {
 			listNames(n);
 		}
